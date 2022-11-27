@@ -1,15 +1,10 @@
 #!/usr/bin/python3
+"""Module for City class."""
+
 from models.base_model import BaseModel
-"""
-Module class: City
-"""
 
 
 class City(BaseModel):
-    """definition for class City"""
-    name = ""
+    """Class representing a City."""
     state_id = ""
-
-    def __init__(self, *args, **kwargs):
-        """ constructor method """
-        super().__init__(self, *args, **kwargs)
+    name = ""
